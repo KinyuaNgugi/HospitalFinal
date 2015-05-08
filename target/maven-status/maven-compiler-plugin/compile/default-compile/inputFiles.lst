@@ -1,0 +1,13 @@
+/home/kinyua/Hospital/src/main/java/com/hospital/services/PatientService.java
+/home/kinyua/Hospital/src/main/java/com/hospital/controllers/PatientController.java
+/home/kinyua/Hospital/src/main/java/com/hospital/models/Drug.java
+/home/kinyua/Hospital/src/main/java/com/hospital/models/Patient.java
+/home/kinyua/Hospital/src/main/java/com/hospital/dao/DrugDao.java
+/home/kinyua/Hospital/src/main/java/com/hospital/dao/PatientDrugDaoImpl.java
+/home/kinyua/Hospital/src/main/java/com/hospital/dao/PatientDrugDao.java
+/home/kinyua/Hospital/src/main/java/com/hospital/services/PatientServiceImpl.java
+/home/kinyua/Hospital/src/main/java/com/hospital/dao/PatientDao.java
+/home/kinyua/Hospital/src/main/java/com/hospital/dao/DrugDaoImpl.java
+/home/kinyua/Hospital/src/main/java/com/hospital/services/DrugServiceImpl.java
+/home/kinyua/Hospital/src/main/java/com/hospital/services/DrugService.java
+/home/kinyua/Hospital/src/main/java/com/hospital/dao/PatientDaoImpl.java
