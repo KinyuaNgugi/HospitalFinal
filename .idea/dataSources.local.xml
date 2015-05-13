@@ -1,11 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="dataSourceStorageLocal">
-    <data-source name="MySQL - hospital@localhost" uuid="e3fd27b8-f52b-47ca-bc5b-cd13a6fd1acb">
-      <secret-storage>master_key</secret-storage>
-      <user-name>root</user-name>
-      <schema-pattern>hospital.*</schema-pattern>
-      <default-schemas>hospital.*</default-schemas>
-    </data-source>
+    <data-source name="MySQL - hospital@localhost" uuid="e3fd27b8-f52b-47ca-bc5b-cd13a6fd1acb" />
   </component>
 </project>

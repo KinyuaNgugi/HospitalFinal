@@ -63,7 +63,7 @@ public class PatientController {
         ModelAndView model = new ModelAndView();
 
         Drug drug = new Drug();
-        drug.setName(pname);
+        drug.setPid(Integer.parseInt(pname));
         drug.setDName(dname);
         drugService.insertRowD(drug);
 
@@ -92,4 +92,15 @@ public class PatientController {
         return model;
 
     }
+    @RequestMapping("/list")
+    public ModelAndView listD()
+
+    {
+        ModelAndView model = new ModelAndView();
+        List<Drug> drugList = drugService.getList();
+        model.addObject("drugList", drugList);
+        model.setViewName("display");
+        return model;
+    }
+
 }

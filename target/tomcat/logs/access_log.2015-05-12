@@ -1,0 +1,4 @@
+127.0.0.1 - - [12/May/2015:08:22:08 +0300] "GET /SpringMVCExample/index HTTP/1.1" 404 - http-bio-8080-exec-3 0
+127.0.0.1 - - [12/May/2015:08:59:51 +0300] "GET / HTTP/1.1" 404 - http-bio-8080-exec-5 0
+127.0.0.1 - - [12/May/2015:09:00:14 +0300] "GET /openmrs HTTP/1.1" 404 - http-bio-8080-exec-6 0
+127.0.0.1 - - [12/May/2015:09:00:17 +0300] "GET /openmrs HTTP/1.1" 404 - http-bio-8080-exec-7 0

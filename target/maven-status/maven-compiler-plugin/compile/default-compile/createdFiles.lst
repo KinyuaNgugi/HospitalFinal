@@ -1,13 +1,11 @@
 com/hospital/services/DrugServiceImpl.class
 com/hospital/services/PatientService.class
-com/hospital/dao/DrugDaoImpl.class
+com/hospital/models/Drug.class
 com/hospital/services/PatientServiceImpl.class
+com/hospital/dao/DrugDaoImpl.class
+com/hospital/models/Patient.class
 com/hospital/services/DrugService.class
+com/hospital/dao/DrugDao.class
 com/hospital/dao/PatientDao.class
 com/hospital/controllers/PatientController.class
-com/hospital/dao/PatientDrugDaoImpl.class
-com/hospital/models/Drug.class
-com/hospital/models/Patient.class
-com/hospital/dao/DrugDao.class
-com/hospital/dao/PatientDrugDao.class
 com/hospital/dao/PatientDaoImpl.class

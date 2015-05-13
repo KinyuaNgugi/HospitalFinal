@@ -1,6 +1,7 @@
 package com.hospital.models;
 
 import javax.persistence.*;
+import java.util.List;
 
 /**
  * Created by derric on 5/5/15.
@@ -23,6 +24,10 @@ public class Patient {
 
     @Column(name = "dob")
     private String dob;
+
+    //entity mapping
+    @OneToMany(cascade =CascadeType.ALL, fetch = FetchType.LAZY, mappedBy = "patient")
+    private List<Drug> drug;
 
     public int getId() {
         return id;

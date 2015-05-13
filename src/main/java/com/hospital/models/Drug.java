@@ -14,11 +14,16 @@ public class Drug {
     @Column(name = "did")
     private int id;
 
-    @Column(name = "first_name")
-    private String name;
+    @Column(name = "pid")
+    private int pid;
 
     @Column(name = "drug_name")
     private String dname;
+
+    /* Entity Mapping*/
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "PID", insertable = false, updatable = false)
+    private Patient patient;
 
     public int getId() {
         return id;
@@ -32,12 +37,12 @@ public class Drug {
 
     public void setDName(String dname) {this.dname = dname;}
 
-    public String getName() {
-        return name;
+    public int getPid() {
+        return pid;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setPid(int pid) {
+        this.pid = pid;
     }
 
 }
